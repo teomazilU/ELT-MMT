@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://teomazilu.github.io/ELT-MMT/sitemap.xml
