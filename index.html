@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ELT@MTN – Elektroinstallationen in München</title>
+  <meta property="og:title" content="ELT@MTN – Elektroinstallationen in München" />
+  <meta property="og:description" content="Elektroinstallationen, Lampenmontage, Sprechanlagen. 24/7 erreichbar. Kostenloses Angebot." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:url" content="https://teomazilu.github.io/ELT-MMT/" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="ELT@MTN – Elektroinstallationen in München: Lampenmontage, Sprechanlagen, Fehlersuche & Reparaturen. 24/7 erreichbar. Jetzt Angebot anfragen!" />
+  <link rel="canonical" href="https://teomazilu.github.io/ELT-MMT/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f172a;--card:#0b1229;--muted:#64748b;--brand:#22c55e;--brand-2:#60a5fa;--text:#e5e7eb;--white:#fff;--shadow:0 10px 30px rgba(0,0,0,.35);--radius:16px}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+    a{color:var(--brand-2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(15,23,42,.8);backdrop-filter:blur(8px);z-index:20;border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{display:flex;align-items:center;gap:12px;font-weight:700}
+    .badge{background:linear-gradient(45deg,var(--brand),var(--brand-2));padding:6px 10px;border-radius:12px;font-size:12px;color:var(--white)}
+    .cta{display:inline-block;background:linear-gradient(45deg,var(--brand),var(--brand-2));color:var(--white);padding:12px 18px;border-radius:999px;font-weight:600;box-shadow:var(--shadow);border:0}
+    .cta:hover{transform:translateY(-1px)}
+    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center;padding:48px 0}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero .pitch{padding:24px}
+    h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 12px}
+    .subtitle{color:var(--muted);margin:8px 0 18px}
+    .badges{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+    .chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);padding:6px 10px;border-radius:999px;font-size:12px}
+    .hero .side{padding:0;overflow:hidden}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px;text-align:center}
+    section{padding:28px 0}
+    h2{font-size:28px;margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .service{padding:18px}
+    .service h3{margin:0 0 8px;font-size:18px}
+    .list{padding-left:18px;margin:0}
+    .panel{padding:18px}
+    .testi{font-style:italic;color:#cbd5e1}
+    .contact{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+    input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:var(--text);outline:none}
+    form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    iframe{width:100%;min-height:320px;border:0;border-radius:12px;filter:grayscale(.2) brightness(.92)}
+    footer{padding:24px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,.06);margin-top:24px}
+    .impressum{font-size:14px}
+    .whatsapp{display:inline-flex;align-items:center;gap:8px}
+    .whatsapp svg{width:18px;height:18px}
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      .contact{grid-template-columns:1fr}
+      form .row{grid-template-columns:1fr}
+    }
+    .float-wa{position:fixed;right:18px;bottom:18px;z-index:40;display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:999px;background:linear-gradient(45deg,var(--brand),var(--brand-2));color:var(--white);box-shadow:var(--shadow)}
+    .cookie{position:fixed;left:12px;right:12px;bottom:12px;background:rgba(15,23,42,.95);border:1px solid rgba(255,255,255,.08);color:var(--text);padding:12px 14px;border-radius:12px;z-index:50;display:none}
+    .cookie.show{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .cookie button{background:linear-gradient(45deg,var(--brand),var(--brand-2));color:var(--white);border:0;padding:8px 12px;border-radius:999px}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "ELT@MTN",
+    "image": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Boschetsrieder Straße 122a",
+      "postalCode": "81379",
+      "addressLocality": "München",
+      "addressCountry": "DE"
+    },
+    "email": "teo.mazilu17@gmail.com",
+    "telephone": "+49 155 10149200",
+    "areaServed": "München und Umgebung",
+    "url": "https://teomazilu.github.io/ELT-MMT/",
+    "openingHours": ["Mo-Su 00:00-23:59"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <span class="badge">ELT@MTN</span>
+        <span>Elektroinstallationen München</span>
+      </div>
+      <div class="actions">
+        <a class="cta" href="#kontakt">Jetzt Angebot anfragen</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="card pitch">
+        <h1>Elektroinstallationen – schnell, sauber, zuverlässig.</h1>
+        <p class="subtitle">Elektroinstallationen, Lampenmontage, Sprechanlagen, Fehlersuche & Reparaturen – alles aus einer Hand in München und Umgebung. <strong>24/7 erreichbar</strong>.</p>
+        <div class="badges">
+          <span class="chip">⏰ 24/7 erreichbar</span>
+          <span class="chip">✅ Kurzfristige Termine</span>
+          <span class="chip">🧹 Saubere Ausführung</span>
+        </div>
+        <p>
+          <a class="cta" href="#kontakt">Kostenloses Angebot</a>
+          &nbsp;&nbsp;oder&nbsp;&nbsp;
+          <a class="whatsapp" href="https://wa.me/4915510149200" target="_blank" rel="noopener">
+            <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M19.11 17.42c-.27-.13-1.6-.79-1.85-.88-.25-.09-.43-.13-.62.13-.18.27-.71.88-.88 1.06-.16.18-.33.2-.6.07-.27-.13-1.13-.42-2.16-1.34-.8-.71-1.34-1.58-1.5-1.84-.16-.27-.02-.41.11-.54.11-.11.27-.29.4-.44.13-.16.18-.27.27-.45.09-.18.04-.34-.02-.47-.07-.13-.62-1.49-.85-2.05-.23-.55-.46-.47-.62-.47-.16 0-.34-.02-.52-.02-.18 0-.47.07-.71.34-.25 0.27-.93 0.91-.93 2.22 0 1.31 0.95 2.58 1.09 2.76 0.13 0.18 1.86 2.84 4.51 3.98 0.63 0.27 1.12 0.43 1.5 0.55 0.63 0.2 1.21 0.17 1.67 0.1 0.51-0.08 1.6-0.65 1.83-1.28 0.23-0.63 0.23-1.17 0.16-1.28-0.06-0.11-0.25-0.18-0.52-0.31z"/></svg>
+            WhatsApp
+          </a>
+        </p>
+        <div class="stats">
+          <div class="stat"><div>Erreichbarkeit</div><strong>24/7</strong></div>
+          <div class="stat"><div>Ø Antwort</div><strong>schnell</strong></div>
+          <div class="stat"><div>Einsatzgebiet</div><strong>München</strong></div>
+        </div>
+      </div>
+      <div class="card side">
+        <svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elektriker Illustration" style="width:100%;height:100%;display:block;background:linear-gradient(135deg,#0ea5e9, #22c55e);">
+          <defs>
+            <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+              <stop stop-color="#e2e8f0" offset="0"/>
+              <stop stop-color="#f8fafc" offset="1"/>
+            </linearGradient>
+          </defs>
+          <!-- Cable -->
+          <path d="M20 220 C120 200, 200 260, 380 200" stroke="#0b1229" stroke-width="8" fill="none" opacity=".35"/>
+          <!-- Bolt -->
+          <polygon points="210,60 170,140 210,140 180,220 250,130 210,130" fill="url(#glow)" stroke="#0b1229" stroke-width="3" opacity=".95"/>
+          <!-- Helmet -->
+          <ellipse cx="120" cy="120" rx="60" ry="40" fill="#f59e0b" stroke="#111827" stroke-width="3"/>
+          <rect x="60" y="120" width="120" height="70" rx="12" fill="#94a3b8" stroke="#111827" stroke-width="3"/>
+          <!-- Tools -->
+          <rect x="290" y="160" width="18" height="60" rx="4" fill="#ef4444"/>
+          <rect x="312" y="150" width="18" height="70" rx="4" fill="#3b82f6"/>
+          <text x="20" y="260" fill="#0b1229" font-size="14" font-family="Inter, Arial, sans-serif" opacity=".7">Illustration eingebettet – keine externen Bilder erforderlich</text>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="leistungen">
+      <h2>Leistungen</h2>
+      <div class="grid">
+        <div class="card service">
+          <h3>Installationen</h3>
+          <ul class="list">
+            <li>Steckdosen & Schalter setzen/ersetzen</li>
+            <li>Unterputz & Aufputz Installationen</li>
+            <li>Unterverteilungen (Prüfung & Erweiterung)</li>
+          </ul>
+        </div>
+        <div class="card service">
+          <h3>Beleuchtung</h3>
+          <ul class="list">
+            <li>Lampen & Leuchten montieren</li>
+            <li>LED‑Bänder, Spots, Sensoren</li>
+            <li>Planung & Umsetzung</li>
+          </ul>
+        </div>
+        <div class="card service">
+          <h3>Sprechanlagen & Netzwerk</h3>
+          <ul class="list">
+            <li>Gegensprechanlagen & Türklingeln</li>
+            <li>Telefon/Internet & TV‑Dosen</li>
+            <li>Kleine Netzwerkprojekte</li>
+          </ul>
+        </div>
+        <div class="card service">
+          <h3>Sicherheit</h3>
+          <ul class="list">
+            <li>FI/RCD‑Schutz (Prüfung & Nachrüstung)</li>
+            <li>Rauchmelder & Bewegungsmelder</li>
+            <li>Fehlerstrom‑/Kurzschlussdiagnose</li>
+          </ul>
+        </div>
+        <div class="card service">
+          <h3>Smart Home (Basic)</h3>
+          <ul class="list">
+            <li>Schaltaktoren, Dimmer, Zeitschaltuhren</li>
+            <li>WLAN‑Schalter & Steckdosen</li>
+            <li>Integration mit Apps</li>
+          </ul>
+        </div>
+        <div class="card service">
+          <h3>Fehlersuche & Reparatur</h3>
+          <ul class="list">
+            <li>Schnelle Diagnose vor Ort</li>
+            <li>Behebung typischer Störungen</li>
+            <li>Nachkontrolle & Dokumentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / USP -->
+    <section id="ueber">
+      <h2>Warum ELT@MTN?</h2>
+      <div class="grid">
+        <div class="card panel">
+          <strong>Transparente Preise</strong>
+          <p>Klare Festpreise oder fairer Einheitspreis pro Meter/Stück – ohne Überraschungen.</p>
+        </div>
+        <div class="card panel">
+          <strong>Saubere Arbeit</strong>
+          <p>Präzise Ausführung, Schutz von Möbeln/Böden, ordentliche Übergabe.</p>
+        </div>
+        <div class="card panel">
+          <strong>Direkter Kontakt</strong>
+          <p>Telefon, WhatsApp oder E‑Mail – schnelle Rückmeldungen und kurze Wege.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="referenzen">
+      <h2>Kundenstimmen</h2>
+      <div class="grid">
+        <div class="card panel testi">„Schnell geantwortet, super sauber gearbeitet. Gerne wieder!“ – A. Müller</div>
+        <div class="card panel testi">„Preis-Leistung top. Termin am nächsten Tag bekommen.“ – S. Schneider</div>
+        <div class="card panel testi">„Empfehlung vom Nachbarn – hat sich gelohnt!“ – F. Wagner</div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <div class="contact">
+        <div class="card panel">
+          <form onsubmit="event.preventDefault(); alert('Danke! Ihre Nachricht wurde lokal gesendet. Bitte per E‑Mail senden: teo.mazilu17@gmail.com');">
+            <div class="row">
+              <div><label for="name">Name</label><br><input id="name" required placeholder="Ihr Name"/></div>
+              <div><label for="mail">E‑Mail</label><br><input id="mail" type="email" required placeholder="ihr@mail.de"/></div>
+            </div>
+            <div class="row" style="margin-top:12px">
+              <div><label for="tel">Telefon</label><br><input id="tel" type="tel" placeholder="0155…"/></div>
+              <div><label for="ort">Ort</label><br><input id="ort" placeholder="München"/></div>
+            </div>
+            <div style="margin-top:12px">
+              <label for="msg">Nachricht</label><br>
+              <textarea id="msg" rows="5" placeholder="Kurz Ihr Anliegen…"></textarea>
+            </div>
+            <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="cta" href="mailto:teo.mazilu17@gmail.com?subject=Anfrage%20ELT%40MTN&body=Name:%20%0AE-Mail:%20%0ATelefon:%20%0AOrt:%20%0ANachricht:%20">Per E‑Mail senden</a>
+              <a class="cta" href="tel:+4915510149200">Anrufen</a>
+              <a class="cta" href="https://wa.me/4915510149200" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </form>
+        </div>
+        <div class="card panel">
+          <strong>Adresse</strong>
+          <p>Boschetsrieder Straße 122a<br>81379 München</p>
+          <iframe title="Karte" loading="lazy" allowfullscreen src="https://www.google.com/maps?q=Boschetsrieder%20Stra%C3%9Fe%20122a%2C%2081379%20M%C3%BCnchen&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="impressum">
+        <strong>ELT@MTN – Theodor Narcis Mazilu</strong> · Boschetsrieder Straße 122a, 81379 München · 
+        <a href="mailto:teo.mazilu17@gmail.com">teo.mazilu17@gmail.com</a> · <a href="tel:+4915510149200">0155 10149200</a>
+        <div style="margin-top:6px">Steuernummer: — · IBAN: — (auf Anfrage)</div>
+        <div style="margin-top:6px">© <span id="year"></span> ELT@MTN. Alle Rechte vorbehalten. · <a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a></div>
+      </div>
+    </footer>
+
+    <section id="impressum" class="card panel">
+      <h2>Impressum</h2>
+      <p><strong>ELT@MTN – Theodor Narcis Mazilu</strong><br>
+      Boschetsrieder Straße 122a, 81379 München, Deutschland<br>
+      Telefon: <a href="tel:+4915510149200">0155 10149200</a> · E‑Mail: <a href="mailto:teo.mazilu17@gmail.com">teo.mazilu17@gmail.com</a></p>
+      <p>Rechtsform: Einzelunternehmen · Verantwortlich i.S.d. § 18 Abs. 2 MStV: Theodor Narcis Mazilu</p>
+      <p>Steuernummer / USt‑IdNr.: auf Anfrage</p>
+    </section>
+
+    <section id="datenschutz" class="card panel">
+      <h2>Datenschutzerklärung (Kurz)</h2>
+      <p>Verantwortlicher: ELT@MTN – Theodor Narcis Mazilu (Kontaktdaten siehe <a href="#impressum">Impressum</a>).</p>
+      <p>Zwecke: Beantwortung von Anfragen (Kontaktformular, E‑Mail, Telefon), Angebotserstellung und Auftragsabwicklung.</p>
+      <p>Rechtsgrundlagen: Art. 6 Abs. 1 lit. b DSGVO (Vertrag/Anbahnung), Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse, z. B. IT‑Sicherheit).</p>
+      <p>Speicherdauer: Bis zur Erledigung des Zwecks bzw. gesetzlicher Aufbewahrungsfristen.</p>
+      <p>Ihre Rechte: Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch, Datenübertragbarkeit.</p>
+      <p>Hinweis: Es werden keine Tracking‑Cookies verwendet. Eingebettete Inhalte (z. B. Google Maps) können Daten an Dritte übertragen.</p>
+    </section>
+
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <a class="float-wa" href="https://wa.me/4915510149200" target="_blank" rel="noopener" aria-label="WhatsApp schreiben">WhatsApp schreiben</a>
+
+  <div id="cookie" class="cookie"><span>Wir verwenden keine Tracking‑Cookies. Details in der <a href="#datenschutz">Datenschutzerklärung</a>.</span><button id="cookie-ok">OK</button></div>
+  <script>
+    if(!localStorage.getItem('cookie-ok')) document.getElementById('cookie').classList.add('show');
+    document.getElementById('cookie-ok') && (document.getElementById('cookie-ok').onclick=function(){localStorage.setItem('cookie-ok','1'); document.getElementById('cookie').remove();});
+  </script>
+</body>
+</html>
